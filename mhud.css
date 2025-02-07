@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pp{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+.headd{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: red;
+    color: #ffd700;
+    padding: 1em;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+nav li{
+    margin: 20px;
+    justify-content: center;
+}
+nav a{
+    color: red;
+    text-decoration: none;
+}
+.sect{
+    color: #000;
+    font-size: 100px;
+}
+.sec{
+    font-size: 55px;
+    color: #000;
+}
+.reg{
+    width: 300px;
+    height: 300px;
+    
+}
+.navvvv{
+    text-decoration: none;
+    color: red;
+    background-color: #ffd700;
+    padding: 40px;
+    float: right;
+}
+.none{
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+    margin-right: none;
+}
+.and{
+    width: 200px;
+    height: 100px;
+}
+.ark{
+    display: flex;
+    justify-content: space-between;
+}
+.ape{
+    background-color: #ffd700;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 101%;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: #acacac;
+    outline-offset: 15px;
+    margin: 10px;
+}
+.apc{
+    background-color: #ffd700;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 101%;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: #acacac;
+    outline-offset: 15px;
+    margin-bottom: 20px;
+}
+
+.seq{
+    background-color: #fff;
+    margin: 50px;
+}
+.menu{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    text-decoration-line: underline;
+}
+.menuu{
+    font-size: 30px;
+    text-align: left;
+    color: red;
+    text-decoration: underline;
+}
+.jor{
+    background-color: #ffd700;
+}
+.gor{
+    text-align: justify;
+    text-align-last:center;
+    margin: 50px;
+}
+.tea{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd700;
+    padding: 0;
+    margin: 0;
+}
+.kenny{
+    height: 40rem;
+}
+.bimbo{
+    height: 40rem;
+}
+.bim h3{
+    font-size: 60px;
+    font-weight: 800;
+}
+.bim p{
+    font-size: 40px;
+}
+.ken h3{
+    font-size: 60px;
+    font-weight: 800;
+}
+.ken P{
+    font-size: 40px;
+}
+.bra{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    width: 100%   ;
+}
+.bra li{
+    list-style-type: disc;
+}
+.fries{
+    height: 200px;
+    width: 200px;
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: #acacac;
+    outline-offset: 15px;
+}
+button{
+    font-size: 35px;
+    font-weight: 900;
+    background-color:#fff;
+    border: none;
+    color: red;
+    margin-top: 20px;
+}
+footer{
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+}

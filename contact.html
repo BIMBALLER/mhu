@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(Burger.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h2{
+            font-size: 100px;
+            color: #fff;
+            font-weight: 900;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-size: 60px;
+            color: #f00;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        form{
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+        }
+        h2 p form{
+            align-content: center;
+            margin-top: 200px;
+        }
+        legend{
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+        }
+        fieldset{
+            border: 2px solid #f00;
+            margin-top: 200px;
+            background-color: black;
+        }
+        .id{
+            background-color: #f00;
+            border: none;
+            font-size: 20px;
+            border-radius: 2rem;
+            font-weight: 900;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Get in Touch</h2>
+    <p>Contact us to make reservation or to ask a question</p>
+    <fieldset>
+        <legend>Talk To Us</legend>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"> <br>
+             <label for="email">Email</label>
+             <input type="email" id="email" name="email"> <br>
+             <label for="message">Message</label>
+             <textarea name="message" id="message" name="message"></textarea> <br>
+             <input class="id" type="submit" value="Send">
+        </form>
+    </fieldset>
+</body>
+</html>
