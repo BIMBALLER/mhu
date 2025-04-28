@@ -1,0 +1,437 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    background-image: url('background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: red;
+    color: #ffd700;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.headd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pp {
+    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.navvvv {
+    text-decoration: none;
+    color: red;
+    background-color: #ffd700;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navvvv:hover {
+    background-color: #e6c200;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: #fff;
+    border: none;
+    color: red;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.sect {
+    color: #000;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.reg {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.sec {
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sec span {
+    font-size: 3.5rem;
+    color: red;
+}
+
+.seq {
+    background-color: #fff;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.menu {
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+.ark {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.ape {
+    background-color: #ffd700;
+    color: red;
+    padding: 1rem;
+    outline: 10px solid #acacac;
+    outline-offset: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.and {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.ape h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ape ul {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.ape ul li {
+    margin: 0.5rem 0;
+}
+
+.fries {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    outline: 10px solid #acacac;
+    outline-offset: 10px;
+    display: none; 
+}
+
+.gor {
+    text-align: justify;
+    text-align-last: center;
+    margin: 2rem 1rem;
+}
+
+.apc {
+    background-color: #ffd700;
+    color: red;
+    padding: 1.5rem;
+    outline: 10px solid #acacac;
+    outline-offset: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.menuu {
+    font-size: 2rem;
+    text-align: left;
+    color: red;
+    text-decoration: underline;
+    margin: 2rem 0 1rem;
+}
+
+.tea {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    background-color: #ffd700;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.bim, .ken {
+    text-align: center;
+}
+
+.bimbo, .kenny {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.bim h3, .ken h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: red;
+}
+
+.bim p, .ken p {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.bra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.bra li {
+    list-style-type: disc;
+    margin: 0.5rem 0;
+}
+
+/* Footer styles */
+footer {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: red;
+    color: #ffd700;
+    padding: 2rem 1rem;
+}
+
+.none {
+    text-decoration: none;
+    color: #ffd700;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.none:hover {
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .headd {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pp {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .sect {
+        font-size: 3rem;
+    }
+
+    .sec {
+        font-size: 2rem;
+    }
+
+    .sec span {
+        font-size: 2.5rem;
+    }
+
+    .menu {
+        font-size: 2.5rem;
+    }
+
+    .and {
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pp {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navvvv {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .sect {
+        font-size: 2rem;
+    }
+
+    .reg {
+        max-width: 250px;
+    }
+
+    .sec {
+        font-size: 1.5rem;
+    }
+
+    .sec span {
+        font-size: 2rem;
+    }
+
+    .menu {
+        font-size: 2rem;
+    }
+
+    .ark {
+        grid-template-columns: 1fr;
+    }
+
+    .and {
+        height: 100px;
+    }
+
+    .ape h2 {
+        font-size: 1.2rem;
+    }
+
+    .ape ul {
+        font-size: 0.9rem;
+    }
+
+    .menuu {
+        font-size: 1.5rem;
+    }
+
+    .apc {
+        font-size: 1rem;
+    }
+
+    .bimbo, .kenny {
+        max-width: 200px;
+    }
+
+    .bim h3, .ken h3 {
+        font-size: 1.5rem;
+    }
+
+    .bim p, .ken p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pp {
+        font-size: 1.2rem;
+    }
+
+    .sect {
+        font-size: 1.5rem;
+    }
+
+    .reg {
+        max-width: 200px;
+    }
+
+    .sec {
+        font-size: 1.2rem;
+    }
+
+    .sec span {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        font-size: 1.5rem;
+    }
+
+    .and {
+        height: 80px;
+    }
+
+    .menuu {
+        font-size: 1.2rem;
+    }
+
+    .bimbo, .kenny {
+        max-width: 150px;
+    }
+
+    .bim h3, .ken h3 {
+        font-size: 1.2rem;
+    }
+
+    .bim p, .ken p {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+    .none {
+        font-size: 1.2rem;
+    }
+}
